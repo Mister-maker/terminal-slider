@@ -15,17 +15,6 @@ function moveSlide(){
 setInterval(moveSlide, 1500);
 
 
-// codeSlider.addEventListener('mouseleave', () => {
-//     //let clear = setInterval(moveSlide, 1500);
-//     setInterval(moveSlide, 1500);
-//     console.log("Hello")
-// })
-
-// codeSlider.addEventListener('mouseenter', () => {
-//     let clear = setInterval(moveSlide, 1500);
-//     clearInterval(clear);
-// })
-
 
 
 
