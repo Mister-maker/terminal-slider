@@ -1,0 +1,143 @@
+body {
+  height: 100vh;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f6f9fe;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  width: 380px;
+  height: 300px;
+  background-color: #32325d;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.8);
+          box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.8);
+}
+
+.wrapper .code {
+  position: absolute;
+  width: calc(380px * 3);
+  height: 90%;
+  margin-top: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.wrapper .inner-showcase:nth-child(1) {
+  padding: 20px 0px;
+}
+
+.wrapper .inner-showcase:nth-child(2) {
+  padding: 60px 20px 20px 20px;
+  text-align: center;
+}
+
+.wrapper .inner-showcase:nth-child(3) {
+  padding: 60px 15px 15px 15px;
+  text-align: center;
+}
+
+.wrapper .inner-showcase {
+  width: 380px;
+}
+
+.wrapper .inner-showcase h3 {
+  font-size: 25px;
+}
+
+.wrapper .inner-showcase p {
+  font-size: 18px;
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.wrapper .inner-showcase p a {
+  color: #16bc95;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+}
+
+.wrapper .inner-showcase p a:hover {
+  color: #6ca5d1;
+}
+
+.wrapper .inner-showcase img {
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  margin: 0px auto;
+  display: block;
+  border: 20px solid #29294c;
+}
+
+.wrapper .inner-showcase .cta {
+  text-decoration: none;
+  color: #6ca5d1;
+  display: block;
+  border: 3px solid #6ca5d1;
+  text-align: center;
+  padding: 8px;
+  width: 150px;
+  border-radius: 4px;
+  margin: 20px auto;
+  color: lightblue;
+  font-weight: bold;
+  -webkit-transition: 200ms ease-in;
+  transition: 200ms ease-in;
+}
+
+.wrapper .inner-showcase .cta:hover {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.wrapper .header {
+  background: #29294c;
+  height: 10%;
+}
+
+.wrapper span {
+  position: absolute;
+  top: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 13px;
+  width: 13px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+
+.wrapper span:nth-child(1) {
+  left: 2%;
+  background: red;
+}
+
+.wrapper span:nth-child(2) {
+  left: 7%;
+  background: orange;
+}
+
+.wrapper span:nth-child(3) {
+  left: 12%;
+  background: lime;
+}
+/*# sourceMappingURL=main.css.map */
