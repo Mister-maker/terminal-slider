@@ -16,8 +16,9 @@ body {
 }
 
 .wrapper {
-  width: 380px;
-  height: 300px;
+  max-width: 550px;
+  width: 100%;
+  height: 50vh;
   background-color: #32325d;
   border-radius: 8px;
   position: relative;
@@ -28,7 +29,7 @@ body {
 
 .wrapper .code {
   position: absolute;
-  width: calc(380px * 3);
+  width: calc(550px * 3);
   height: 90%;
   margin-top: 0%;
   display: -webkit-box;
@@ -40,21 +41,31 @@ body {
 }
 
 .wrapper .inner-showcase:nth-child(1) {
-  padding: 20px 0px;
+  padding: 0px;
 }
 
 .wrapper .inner-showcase:nth-child(2) {
-  padding: 60px 20px 20px 20px;
+  padding: 0px 20px 20px 20px;
   text-align: center;
 }
 
 .wrapper .inner-showcase:nth-child(3) {
-  padding: 60px 15px 15px 15px;
+  padding: 0px 15px 15px 15px;
   text-align: center;
 }
 
 .wrapper .inner-showcase {
-  width: 380px;
+  width: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .wrapper .inner-showcase h3 {
@@ -132,12 +143,12 @@ body {
 }
 
 .wrapper span:nth-child(2) {
-  left: 7%;
+  left: 6%;
   background: orange;
 }
 
 .wrapper span:nth-child(3) {
-  left: 12%;
+  left: 10%;
   background: lime;
 }
 /*# sourceMappingURL=main.css.map */
